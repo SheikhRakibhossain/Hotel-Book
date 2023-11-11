@@ -7,6 +7,14 @@ const Home = () => {
       <Categories />
       <Rooms />
       <h1>Hello there, I am back with power.</h1>
+      <h1>Hello there, I am back with power.</h1>
+      <h1>Hello there, I am back with power.</h1>
+      <h1>Hello there, I am back with power.</h1>
+      <h1>Hello there, I am back with power.</h1>
+      <h1>Hello there, I am back with power.</h1>
+      <h1>Hello there, I am back with power.</h1>
+      <h1>Hello there, I am back with power.</h1>
+      <h1>Hello there, I am back with power.</h1>
     </>
   );
 };
