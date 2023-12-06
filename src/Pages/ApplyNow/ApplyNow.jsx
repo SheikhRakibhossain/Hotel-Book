@@ -15,15 +15,39 @@ const ApplyNow = () => {
         </div>
           {/* form input here */}
         <form>
-       <div className="grid md:grid-cols-2">
+       <div className="grid md:grid-cols-2 gap-3">
        <div className="mb-5">
-           <label className="block mb-2 font-bold text-gray-600">Name</label>
-           <input type="text" id="name" name="name" placeholder="Put in your fullname." className="border border-gray-300 shadow p-3 w-full rounded hover:border-black"/>
+           <label className="block mb-2 font-bold text-gray-600"></label>
+           <input type="text" id="name" name="name" placeholder="First Name *" className="border border-gray-300 shadow p-3 w-full rounded-full hover:border-black" required/>
          </div>
 
          <div className="mb-5">
-           <label className="block mb-2 font-bold text-gray-600">Name</label>
-           <input type="text" id="name" name="name" placeholder="Put in your fullname." className="border border-gray-300 shadow p-3 w-full rounded hover:border-black"/>
+           <label className="block mb-2 font-bold text-gray-600"></label>
+           <input type="text" id="name" name="name" placeholder="Last Name *" className="border border-gray-300 shadow p-3 w-full rounded-full hover:border-black" required/>
+         </div>
+         <div className="mb-5">
+           <label className="block mb-2 font-bold text-gray-600"></label>
+           <input type="text" id="name" name="name" placeholder="Last Name *" className="border border-gray-300 shadow p-3 w-full rounded-full hover:border-black" required/>
+         </div>
+         <div className="mb-5">
+           <label className="block mb-2 font-bold text-gray-600"></label>
+           <input type="text" id="name" name="name" placeholder="Last Name *" className="border border-gray-300 shadow p-3 w-full rounded-full hover:border-black" required/>
+         </div>
+         <div className="mb-5">
+           <label className="block mb-2 font-bold text-gray-600"></label>
+           <input type="text" id="name" name="name" placeholder="Last Name *" className="border border-gray-300 shadow p-3 w-full rounded-full hover:border-black" required/>
+         </div>
+         <div className="mb-5">
+           <label className="block mb-2 font-bold text-gray-600"></label>
+           <input type="text" id="name" name="name" placeholder="Last Name *" className="border border-gray-300 shadow p-3 w-full rounded-full hover:border-black" required/>
+         </div>
+         <div className="mb-5">
+           <label className="block mb-2 font-bold text-gray-600"></label>
+           <input type="text" id="name" name="name" placeholder="Last Name *" className="border border-gray-300 shadow p-3 w-full rounded-full hover:border-black" required/>
+         </div>
+         <div className="mb-5">
+           <label className="block mb-2 font-bold text-gray-600"></label>
+           <input type="text" id="name" name="name" placeholder="Last Name *" className="border border-gray-300 shadow p-3 w-full rounded-full hover:border-black" required/>
          </div>
        </div>
         </form>
