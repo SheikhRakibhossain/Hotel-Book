@@ -5,6 +5,7 @@ import SignUp from "../Pages/SignUp/SignUp";
 import Login from "../Pages/Login/Login";
 import RoomDetails from "../Pages/RoomDetails/RoomDetails";
 import PrivateRoute from "./PrivateRoute";
+import ApplyNow from "../Pages/ApplyNow/ApplyNow";
 
 export const router = createBrowserRouter([
   {
@@ -25,4 +26,5 @@ export const router = createBrowserRouter([
 
   { path: "signup", element: <SignUp /> },
   { path: "login", element: <Login /> },
+  {path:"applynow", element:<ApplyNow/>}
 ]);
