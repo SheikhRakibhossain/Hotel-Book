@@ -1,4 +1,9 @@
+import ReCAPTCHA from "react-google-recaptcha";
+
 const ApplyNow = () => {
+  function onChange(value) {
+    console.log("Captcha value:", value);
+  }
   return (
     <>
       <div className="flex-row justify-center items-center p-20  ">
@@ -82,7 +87,7 @@ const ApplyNow = () => {
                   required
                 />
               </div>
-            
+
               <div className="mb-5">
                 <label className="block mb-2 font-bold text-gray-600"></label>
                 <select
@@ -93,11 +98,11 @@ const ApplyNow = () => {
                   className="border border-gray-300 shadow p-3 w-full rounded-full hover:border-black block"
                   required
                 >
-                 <option selected>Industry *</option>
-                <option value="US">United States</option>
-                <option value="CA">Canada</option>
-                <option value="FR">France</option>
-                <option value="DE">Germany</option> 
+                  <option selected>Industry *</option>
+                  <option value="US">United States</option>
+                  <option value="CA">Canada</option>
+                  <option value="FR">France</option>
+                  <option value="DE">Germany</option>
                 </select>
               </div>
               <div className="mb-5">
@@ -110,11 +115,11 @@ const ApplyNow = () => {
                   className="border border-gray-300 shadow p-3 w-full rounded-full hover:border-black block"
                   required
                 >
-                 <option selected>Your Credit Score</option>
-                <option value="US">United States</option>
-                <option value="CA">Canada</option>
-                <option value="FR">France</option>
-                <option value="DE">Germany</option> 
+                  <option selected>Your Credit Score</option>
+                  <option value="US">United States</option>
+                  <option value="CA">Canada</option>
+                  <option value="FR">France</option>
+                  <option value="DE">Germany</option>
                 </select>
               </div>
               <div className="mb-5">
@@ -127,11 +132,11 @@ const ApplyNow = () => {
                   className="border border-gray-300 shadow p-3 w-full rounded-full hover:border-black block"
                   required
                 >
-                 <option selected>Time In Business</option>
-                <option value="US">United States</option>
-                <option value="CA">Canada</option>
-                <option value="FR">France</option>
-                <option value="DE">Germany</option> 
+                  <option selected>Time In Business</option>
+                  <option value="US">United States</option>
+                  <option value="CA">Canada</option>
+                  <option value="FR">France</option>
+                  <option value="DE">Germany</option>
                 </select>
               </div>
               <div className="mb-5">
@@ -144,20 +149,29 @@ const ApplyNow = () => {
                   className="border border-gray-300 shadow p-3 px-6 w-full rounded-full hover:border-black block placeholder:text-gray-600"
                   required
                 >
-                 <option selected>Annul Sales</option>
-                <option value="US">United States</option>
-                <option value="CA">Canada</option>
-                <option value="FR">France</option>
-                <option value="DE">Germany</option> 
+                  <option selected>Annul Sales</option>
+                  <option value="US">United States</option>
+                  <option value="CA">Canada</option>
+                  <option value="FR">France</option>
+                  <option value="DE">Germany</option>
                 </select>
               </div>
-              
             </div>
-            <div className="pb-10"><input type="checkbox" id="terms" name="terms" value="I agree"/>
-            <label> By checking this checkbox I agree to the terms of use, privacy policy as well as receiving SMS, email and phone communication.</label>
+            <div className="pb-10">
+              <input type="checkbox" id="terms" name="terms" value="I agree" />
+              <label>
+                {" "}
+                By checking this checkbox I agree to the terms of use, privacy
+                policy as well as receiving SMS, email and phone communication.
+              </label>
+            </div>
+            {/* recaptcha for robot check--- form google account you have to create a captcha account and from there just put here client site key */}
+            <ReCAPTCHA sitekey="Your client site key" onChange={onChange} />
 
-            </div>
-            <input type="submit" value="Apply Now" className="bg-red-600 px-8 py-3 rounded-full cursor-pointer text-red-100 shadow:bg-red-100 hover:bg-red-500 transition duration-300" />
+            <input type="submit"
+              value="Apply Now"
+              className="bg-red-600 px-8 py-3 rounded-full cursor-pointer text-red-100 shadow:bg-red-100 hover:bg-red-500 transition duration-300"
+            />
           </form>
         </div>
       </div>
