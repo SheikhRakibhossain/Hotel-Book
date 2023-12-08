@@ -11,11 +11,11 @@ import { Keyboard, Pagination, Navigation } from "swiper/modules";
 import "@smastrom/react-rating/style.css";
 import { Rating } from "@smastrom/react-rating";
 import { ThinStar } from "@smastrom/react-rating";
-import { useState } from "react";
+// import { useState } from "react";
 import '@smastrom/react-rating/style.css';
 
 const BusinessReview = () => {
-  const [rating, setRating] = useState(0);
+//   const [rating, setRating] = useState(0);
   const customStyles = {
     itemShapes: ThinStar,
     activeBoxColor: ['#e7040f', '#ff6300', '#ffde37', '#61bb00', '#19a974'],

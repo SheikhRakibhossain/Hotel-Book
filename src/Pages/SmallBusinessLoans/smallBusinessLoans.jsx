@@ -6,6 +6,8 @@ import Image3 from "../../images/3.png";
 import Image4 from "../../images/4.png";
 import BusinessReview from "./BusinessReview";
 import Qualify from "./Qualify";
+import Consult from "./Consult";
+import Faq from "./Faq";
 
 const SmallBusinessLoans = () => {
   return (
@@ -282,9 +284,9 @@ const SmallBusinessLoans = () => {
         </div>
       </section>
       {/* Qualify section */}
-      <Qualify/>
-
-
+      <Qualify />
+      <Consult />
+      <Faq/>
     </>
   );
 };
