@@ -4,6 +4,7 @@ import Image1 from "../../images/1.png";
 import Image2 from "../../images/2.png";
 import Image3 from "../../images/3.png";
 import Image4 from "../../images/4.png";
+import BusinessReview from "./BusinessReview";
 
 const SmallBusinessLoans = () => {
   return (
@@ -21,13 +22,13 @@ const SmallBusinessLoans = () => {
               <div className="sm:grid-cols-2 grid md:grid-cols-2">
                 <div>
                   <div className="space-y-4 pt-6">
-                    <p className="flex justify-center items-center gap-4 text-2xl">
+                    <p className="flex font-light justify-center items-center gap-4 text-2xl">
                       <GiCheckMark /> <span>Same Day Funding...</span>
                     </p>
-                    <p className="flex justify-center items-center gap-4 text-2xl">
+                    <p className="flex font-light justify-center items-center gap-4 text-2xl">
                       <GiCheckMark /> <span>Same Day Funding...</span>
                     </p>
-                    <p className="flex justify-center items-center gap-4 text-2xl ">
+                    <p className="flex font-light justify-center items-center gap-4 text-2xl ">
                       <GiCheckMark /> <span>Same Day Funding...</span>
                     </p>
                   </div>
@@ -235,63 +236,48 @@ const SmallBusinessLoans = () => {
       </section>
       {/* 2nd section */}
       <section className="grid grid-cols-4 gap-2">
-        
-        
         <div className="card bg-base-200 shadow-xl">
           <figure className="px-10 pt-10">
-            <img
-              src={Image1}
-              alt="Shoes"
-              className=""
-            />
+            <img src={Image1} alt="Shoes" className="" />
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            
           </div>
         </div>
         <div className="card bg-base-200 shadow-xl">
           <figure className="px-10 pt-10">
-            <img
-              src={Image4}
-              alt="Shoes"
-              className=""
-            />
+            <img src={Image4} alt="Shoes" className="" />
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            
           </div>
         </div>
         <div className="card bg-base-200 shadow-xl">
           <figure className="px-10 pt-10">
-            <img
-              src={Image2}
-              alt="Shoes"
-              className=""
-            />
+            <img src={Image2} alt="Shoes" className="" />
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            
           </div>
         </div>
         <div className="card bg-base-200 shadow-xl">
           <figure className="px-10 pt-10">
-            <img
-              src={Image3}
-              alt="Shoes"
-              className=""
-            />
+            <img src={Image3} alt="Shoes" className="" />
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            
           </div>
+        </div>
+      </section>
+      {/* review section */}
+      <section className="grid grid-cols-8">
+        <div className="col-span-2"></div>
+        <div className="col-span-6">
+          <BusinessReview />
         </div>
       </section>
     </>
