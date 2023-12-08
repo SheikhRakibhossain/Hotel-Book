@@ -1,43 +1,62 @@
 import { GiCheckMark } from "react-icons/gi";
 import logoImage from "../../images/siteseal-positive-ssl.png";
+import Image1 from "../../images/1.png";
+import Image2 from "../../images/2.png";
+import Image3 from "../../images/3.png";
+import Image4 from "../../images/4.png";
 
 const SmallBusinessLoans = () => {
   return (
     <>
       {/* 1st section */}
       <section>
-        <div className="ps-16 pt-8">
-          {" "}
-          <h2 className="text-6xl">Small Business Loans</h2>
-        </div>
         <div className=" grid grid-cols-6 gap-4 p-6">
           <div className="col-span-6 md:col-span-4">
-            <div className="sm:grid-cols-2 grid md:grid-cols-2">
-              <div>
-                <div className="space-y-4">
-                  <p className="flex justify-center items-center gap-4 text-2xl">
-                    <GiCheckMark /> <span>Same Day Funding...</span>
-                  </p>
-                  <p className="flex justify-center items-center gap-4 text-2xl">
-                    <GiCheckMark /> <span>Same Day Funding...</span>
-                  </p>
-                  <p className="flex justify-center items-center gap-4 text-2xl ">
-                    <GiCheckMark /> <span>Same Day Funding...</span>
-                  </p>
-                </div>
-                {/* logo part */}
-                <div className="flex justify-center items-center pt-11 ">
-                  <img src={logoImage} alt="Logo image" className="w-[100px]" />
-                  <img src={logoImage} alt="Logo image" className="w-[100px]" />
-                  <img src={logoImage} alt="Logo image" className="w-[100px]" />
-                </div>
+            <div className="pt-16">
+              <div className="ps-16 pt-8 space-y-4">
+                {" "}
+                <h2 className="text-6xl">Small Business Loans</h2>
+                <h2 className="text-4xl">Small Business Loans</h2>
               </div>
+              <div className="sm:grid-cols-2 grid md:grid-cols-2">
+                <div>
+                  <div className="space-y-4 pt-6">
+                    <p className="flex justify-center items-center gap-4 text-2xl">
+                      <GiCheckMark /> <span>Same Day Funding...</span>
+                    </p>
+                    <p className="flex justify-center items-center gap-4 text-2xl">
+                      <GiCheckMark /> <span>Same Day Funding...</span>
+                    </p>
+                    <p className="flex justify-center items-center gap-4 text-2xl ">
+                      <GiCheckMark /> <span>Same Day Funding...</span>
+                    </p>
+                  </div>
+                  {/* logo part */}
+                  <div className="flex justify-center items-center pt-11 ">
+                    <img
+                      src={logoImage}
+                      alt="Logo image"
+                      className="w-[100px]"
+                    />
+                    <img
+                      src={logoImage}
+                      alt="Logo image"
+                      className="w-[100px]"
+                    />
+                    <img
+                      src={logoImage}
+                      alt="Logo image"
+                      className="w-[100px]"
+                    />
+                  </div>
+                </div>
 
-              <div>
-                <img
-                  src="https://img.freepik.com/free-photo/smiling-young-man-with-crossed-arms-outdoors_1140-255.jpg?size=626&ext=jpg&ga=GA1.1.2097783395.1699976822&semt=ais"
-                  alt=""
-                />
+                <div>
+                  <img
+                    src="https://img.freepik.com/free-photo/closeup-portrait-happy-businessman-shows-thumbs-up-isolated-white_186202-3236.jpg?w=826&t=st=1702033191~exp=1702033791~hmac=5e576d1c2bd571d7920e42641d7d5a43a4d24116fd4bff79a97037320b1d81ab"
+                    alt="image extra"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -211,6 +230,67 @@ const SmallBusinessLoans = () => {
                 </form>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      {/* 2nd section */}
+      <section className="grid grid-cols-4 gap-2">
+        
+        
+        <div className="card bg-base-200 shadow-xl">
+          <figure className="px-10 pt-10">
+            <img
+              src={Image1}
+              alt="Shoes"
+              className=""
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            
+          </div>
+        </div>
+        <div className="card bg-base-200 shadow-xl">
+          <figure className="px-10 pt-10">
+            <img
+              src={Image4}
+              alt="Shoes"
+              className=""
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            
+          </div>
+        </div>
+        <div className="card bg-base-200 shadow-xl">
+          <figure className="px-10 pt-10">
+            <img
+              src={Image2}
+              alt="Shoes"
+              className=""
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            
+          </div>
+        </div>
+        <div className="card bg-base-200 shadow-xl">
+          <figure className="px-10 pt-10">
+            <img
+              src={Image3}
+              alt="Shoes"
+              className=""
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            
           </div>
         </div>
       </section>
