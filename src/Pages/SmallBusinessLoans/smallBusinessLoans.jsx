@@ -5,6 +5,7 @@ import Image2 from "../../images/2.png";
 import Image3 from "../../images/3.png";
 import Image4 from "../../images/4.png";
 import BusinessReview from "./BusinessReview";
+import Qualify from "./Qualify";
 
 const SmallBusinessLoans = () => {
   return (
@@ -280,6 +281,10 @@ const SmallBusinessLoans = () => {
           <BusinessReview />
         </div>
       </section>
+      {/* Qualify section */}
+      <Qualify/>
+
+
     </>
   );
 };
