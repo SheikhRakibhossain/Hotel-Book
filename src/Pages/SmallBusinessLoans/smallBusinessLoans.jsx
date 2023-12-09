@@ -238,7 +238,7 @@ const SmallBusinessLoans = () => {
         </div>
       </section>
       {/* 2nd section */}
-      <section className="grid grid-cols-4 gap-2">
+      <section className="grid sm:grid-cols md:grid-cols-4  gap-2">
         <div className="card bg-base-200 shadow-xl">
           <figure className="px-10 pt-10">
             <img src={Image1} alt="Shoes" className="" />

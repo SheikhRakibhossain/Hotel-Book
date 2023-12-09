@@ -7,8 +7,8 @@ import { FaRegMoneyBillAlt } from "react-icons/fa";
 const Consult = () => {
   return (
     <>
-      <div className="grid grid-cols-2 gap-4 py-14">
-        <div className="ps-16 space-y-4 ">
+      <div className="grid md:grid-cols-2 gap-4 py-14">
+        <div className="md:ps-16 space-y-4 ">
           <h2 className="text-6xl font-bold">Have Questions?</h2>
           <h3 className="text-4xl font-light">
             Speak with a ROK Business Financing Advisor today!
@@ -29,14 +29,14 @@ const Consult = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 py-14">
+      <div className="grid md:grid-cols-2 gap-4 py-14">
       <div>
           <img
             src="https://img.freepik.com/free-photo/happy-coffee-shop-owner-holding-open-sign-while-reopening-after-coronavirus-pandemic_637285-6310.jpg?w=1380&t=st=1702058970~exp=1702059570~hmac=f2b37719d25a38bde7cc18333d372144b463036426c996ba24f2319551fb06ae"
             alt="consulting image"
           />
         </div>
-        <div className="ps-16 space-y-4 ">
+        <div className="md:ps-16 space-y-4 ">
           <h2 className="text-6xl font-bold">Let{"'"}s consult</h2>
           <h3 className="text-4xl font-light">
           Simple 15-Second Business Loan Application

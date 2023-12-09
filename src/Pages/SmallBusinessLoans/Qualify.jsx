@@ -1,6 +1,5 @@
-import { MdOutlineSpeed, } from "react-icons/md";
+import { MdOutlineSpeed } from "react-icons/md";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
-
 
 const Qualify = () => {
   return (
@@ -55,33 +54,37 @@ const Qualify = () => {
         </div>
       </div>
       {/* over section */}
-      <div className="-mt-20 bg-white w-[80%] p-10  mx-auto z-50 shadow-md">
-        <div className="flex justify-center items-center gap-4 z-100 ">
-        <div className="flex justify-center items-center gap-4">
-          <MdOutlineSpeed className="text-6xl" />
-          <p className="text-xl font-bold text-yellow-500">Fintech Speed</p>
+      <div className="-mt-20 bg-white sm:w-[90%] md:w-[80%] p-10  mx-auto z-50 shadow-md">
+        <div className="md:flex md:justify-center md:items-center gap-4 z-100 ">
+          <div className="flex justify-center items-center gap-4">
+            <MdOutlineSpeed className="text-6xl" />
+            <p className="text-xl font-bold text-yellow-500">Fintech Speed</p>
+          </div>
+          <div>
+            <p>
+              Easy 15-second application to get options in just minutes and
+              funding in hours!
+            </p>
+          </div>
+          <div className="flex justify-center items-center gap-4">
+            <FaRegArrowAltCircleRight className="text-2xl sm:hidden md:visible" />
+            <button className="btn btn-accent">Join Now</button>
+          </div>
         </div>
-        <div>
-          <p>
-            Easy 15-second application to get options in just minutes and
-            funding in hours!
-          </p>
-        </div>
-        <div className="flex justify-center items-center gap-4">
-          <FaRegArrowAltCircleRight className="text-2xl" />
-          <button className="btn btn-accent">Join Now</button>
-        </div>
-        </div>
-      
       </div>
       <div className="w-[80%] mx-auto">
-      <h3 className="pt-5">The question of How do small business loans work is the natural question when deciding on growth possibilities or starting a small business.
-
-Small business loans allow existing or startup companies to borrow money from various lenders. Various loan types exist to help entrepreneurs meet different goals. The way each loan works depends on the type of loan.
-
-Maybe you have come up with that product that has the market beat. Or, maybe you need a piece of equipment that would tip your business growth over the top. Or, maybe outstanding invoices have you in need of funds for operating costs. Whatever it may be, it may be time for a loan.
-
-</h3>
+        <h3 className="pt-5">
+          The question of How do small business loans work is the natural
+          question when deciding on growth possibilities or starting a small
+          business. Small business loans allow existing or startup companies to
+          borrow money from various lenders. Various loan types exist to help
+          entrepreneurs meet different goals. The way each loan works depends on
+          the type of loan. Maybe you have come up with that product that has
+          the market beat. Or, maybe you need a piece of equipment that would
+          tip your business growth over the top. Or, maybe outstanding invoices
+          have you in need of funds for operating costs. Whatever it may be, it
+          may be time for a loan.
+        </h3>
       </div>
     </>
   );

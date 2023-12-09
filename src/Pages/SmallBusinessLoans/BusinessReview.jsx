@@ -26,7 +26,17 @@ const BusinessReview = () => {
   return (
     <>
       <Swiper
-        slidesPerView={3}
+        breakpoints={{
+          576: {
+            width: 576,
+            slidesPerView: 2,
+          },
+          768: {
+            width: 768,
+            slidesPerView: 3,
+          },
+        }}
+        // slidesPerView={3}
         spaceBetween={30}
         keyboard={{
           enabled: true,
