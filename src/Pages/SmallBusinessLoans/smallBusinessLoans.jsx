@@ -277,9 +277,9 @@ const SmallBusinessLoans = () => {
         </div>
       </section>
       {/* review section */}
-      <section className="grid grid-cols-8">
+      <section className="grid grid-cols-8 py-6">
         <div className="col-span-2"></div>
-        <div className="col-span-6">
+        <div className="col-span-6 px-4">
           <BusinessReview />
         </div>
       </section>

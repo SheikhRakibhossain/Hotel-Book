@@ -46,7 +46,7 @@ const BusinessReview = () => {
         }}
         navigation={true}
         modules={[Keyboard, Pagination, Navigation]}
-        className="mySwiper grid sm:grid-cols-2 md:grid-cols-3 gap-2"
+        className="mySwiper grid sm:grid-cols-2 md:grid-cols-3 gap-2 px-4 pt-6"
       >
         <SwiperSlide>
           <div className="bg-base-100 shadow-xl p-4">
